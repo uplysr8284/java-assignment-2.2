@@ -1,0 +1,23 @@
+Difference between compiler and interpreter ?
+	
+	We generally write a computer program using a high-level language. A high-level language is one which is understandable by us humans.  But a computer does not understand high-level language. It only understands program written in 0's and 1's in binary, called the machine code. A program written in high-level language is called a source code. We need to convert the source code into machine code . Hence, a compiler or an interpreter is a program that converts program written in high-level language into machine code understood by the computer.
+
+
+Compiler : 
+- Compiler Takes Entire program as input.
+- Intermediate Object Code is Generated.
+- Memory Requirement is More.
+- Program need not be compiled every time.
+- Errors are displayed after entire program is checked.
+
+Interpreter : 
+- Interpreter Takes Single instruction as input.
+- No Intermediate Object Code is Generated.
+- Memory Requirement is Less.
+- Every time higher level program is converted into lower level program.
+- Errors are displayed for every instruction interpreted if any.
+
+-  JAVA is a both comiler and interpreted language because when you write a Java program, the javac compiler converts your program into something called bytecode. All the Java programs run inside a JVM . Bytecode compiled by javac, enters into JVM memory and there it is interpreted by another program called java. This java program interprets bytecode line-by-line and converts it into machine code to be run by the JVM.
+
+
+
